@@ -13,7 +13,7 @@ namespace ExampleProject
            static int multiply(int a, int b)
             {
                 int result = a * b;
-                Console.WriteLine("Good Job");
+                Console.WriteLine("Good Job!");
                 return result;
             }
 
@@ -22,7 +22,8 @@ namespace ExampleProject
             int num1 = Convert.ToInt32(Console.ReadLine());
             int num2 = Convert.ToInt32(Console.ReadLine());
             //Should Print Out correct result in this test case.
-            Console.WriteLine(multiply(num1, num2));
+            //Console.WriteLine(multiply(num1, num2));
+            Console.WriteLine(num1 + " multiplied by " + num2 + " is equal to: " + multiply(num1,num2));
     }
     }
 }
